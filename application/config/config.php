@@ -12,6 +12,11 @@ $config['menu_choices'] = array(
         )
     );
 
+// database
+$config['sess_driver'] = 'database';
+$config['sess_save_path'] = 'ci_sessions';
+    
+    
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
