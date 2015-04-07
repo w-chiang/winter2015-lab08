@@ -1,8 +1,14 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+//for authorization
+define('ROLE_USER', 'user');
+define('ROLE_ADMIN', 'admin');
+
+
 // location of data folders
 define('DATAPATH', './data/');
 define('XMLSUFFIX','.xml');
+
 /*
 |--------------------------------------------------------------------------
 | File Stream Modes
